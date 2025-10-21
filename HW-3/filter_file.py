@@ -22,7 +22,7 @@ to_date = datetime.strptime("2030-12-31", "%Y-%m-%d")
 
 # Subreddit filtering
 field = "subreddit"
-values = ["education", "highereducation", "University", "school"]
+values = ["education", "highereducation", "University", "school", "Learning", "college"]
 values_file = None
 exact_match = True
 inverse = False
@@ -32,7 +32,7 @@ inverse = False
 # field = "selftext" - for submissions
 # field = "body" - for comments
 # values = [
-#     "artificial intelligence", "ai", "machine learning", "ml", 
+#     "artificial intelligence", "machine learning", 
 #     "deep learning", "neural network", "natural language processing", 
 #    "nlp", "computer-based learning", "intelligent systems", 
 #     "robot teacher", "edtech"

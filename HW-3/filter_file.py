@@ -7,6 +7,7 @@ from datetime import datetime
 import logging.handlers
 import traceback
 
+# The file is taken from the PushshiftDumps repository, below is the template I used for filtering data
 input_file = r"D:\\ProgSZ\\CSS\\reddit\\comments\\RC_2018-09.zst"
 output_file = r"D:\\ProgSZ\\CSS\\reddit\\comments\\RC_2018-09_subs_filtered"   # Example for subreddit filtering
 # output_file = r"D:\\ProgSZ\\CSS\\reddit\\comments\\FINAL_Comments_2018-09"  - Example for topics filtering
@@ -34,7 +35,7 @@ inverse = False
 # values = [
 #     "artificial intelligence", "machine learning", 
 #     "deep learning", "neural network", "natural language processing", 
-#    "nlp", "computer-based learning", "intelligent systems", 
+#     "nlp", "computer-based learning", "intelligent systems", 
 #     "robot teacher", "edtech"
 # ] 
 

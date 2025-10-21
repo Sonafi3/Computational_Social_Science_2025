@@ -1,12 +1,12 @@
 import pandas as pd
 
 file_names = [
-    'FINAL_CommentsV2_2018-09.csv',
-    'FINAL_CommentsV2_2021-09.csv',
-    'FINAL_CommentsV2_2023-05.csv',
-    'FINAL_SubmissionsV2_2018-09.csv',
-    'FINAL_SubmissionsV2_2021-09.csv',
-    'FINAL_SubmissionsV2_2023-05.csv'
+    'FINAL_Comments_2018-09.csv',
+    'FINAL_Comments_2021-09.csv',
+    'FINAL_Comments_2023-05.csv',
+    'FINAL_Submissions_2018-09.csv',
+    'FINAL_Submissions_2021-09.csv',
+    'FINAL_Submissions_2023-05.csv'
 ]
 
 total_type_counts = pd.Series(dtype='int64')

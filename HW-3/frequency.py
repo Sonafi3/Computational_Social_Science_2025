@@ -13,7 +13,7 @@ total_type_counts = pd.Series(dtype='int64')
 
 for file in file_names:
     try:
-        print(f"Аналізую файл: {file}...")
+        print(f"Analyzing the file: {file}...")
         
         df = pd.read_csv(file, low_memory=False) 
         
@@ -22,11 +22,11 @@ for file in file_names:
         total_type_counts = total_type_counts.add(type_counts, fill_value=0)
         
     except FileNotFoundError:
-        print(f"Файл '{file}' не знайдено.")
+        print(f"File '{file}' was not found")
     except Exception as e:
-        print(f"Виникла помилка при обробці файлу '{file}': {e}")
+        print(f"Error while working with file '{file}': {e}")
 
 print("\n" + "="*40)
-print("Загальний огляд частоти типів даних:")
+print("General overview of data type frequency:")
 print("="*40)
 print(total_type_counts.astype(int))

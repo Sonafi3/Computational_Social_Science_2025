@@ -23,7 +23,7 @@ to_date = datetime.strptime("2030-12-31", "%Y-%m-%d")
 
 # Subreddit filtering
 field = "subreddit"
-values = ["education", "highereducation", "University", "school", "Learning", "college"]
+values = ["education", "highereducation", "University", "school", "Learning", "college", "Teachers", "IWantToLearn", "Professors"]
 values_file = None
 exact_match = True
 inverse = False
@@ -36,7 +36,7 @@ inverse = False
 #     "artificial intelligence", "machine learning", 
 #     "deep learning", "neural network", "natural language processing", 
 #     "nlp", "computer-based learning", "intelligent systems", 
-#     "robot teacher", "edtech"
+#     "robot teacher", "edtech", " ai ", "ai ", " ai", " ml ", " ml", "ml "
 # ] 
 
 log = logging.getLogger("bot")

@@ -1,8 +1,8 @@
-# Computational_Social_Science_2025
+# Computational Social Science 2025
 ## 📂 Project Structure
 Computational_Social_Science/  
 ├── Homeworks/ ── HW-2/ → hw2_3_python_basics.py, data, 2_17.pdf   
-├───────────── HW-3/ → show_dataframe.py, frequency.py, H3_8.pdf   
+├───────────── HW-3/ → show_dataframe.py, frequency.py, H3_17.pdf   
 ├───────────── HW-4/ → eda.ipynb, 4_17.pdf   
 ├───────────── HW-5/ → 17_report.pdf    
 ├───────────── HW-6/ → 6_17.pdf   
